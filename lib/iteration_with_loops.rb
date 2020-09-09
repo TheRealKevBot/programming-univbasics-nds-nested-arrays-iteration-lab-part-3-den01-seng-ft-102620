@@ -15,4 +15,5 @@ def join_nested_strings(src)
     total << strings
     row += 1 
   end
+  total
 end

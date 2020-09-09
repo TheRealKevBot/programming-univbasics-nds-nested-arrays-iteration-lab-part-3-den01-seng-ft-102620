@@ -9,5 +9,8 @@ def join_nested_strings(src)
     while index < src[row].count do
       if src[row][index] == String
         strings = src[row][index]
+      end
+      index += 1 
+    end
       
 end

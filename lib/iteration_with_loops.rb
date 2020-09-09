@@ -8,7 +8,6 @@ def join_nested_strings(src)
     index = 0
     while index < src[row].count do
       if src[row][index] == String
-        
-        
+        strings = src[row][index]
       
 end

@@ -4,7 +4,7 @@ def join_nested_strings(src)
   total = []
   row = 0 
   while row < src.count do 
-    strings = ""
+    strings = []
     index = 0
     while index < src[row].count do
       if src[row][index].class == String

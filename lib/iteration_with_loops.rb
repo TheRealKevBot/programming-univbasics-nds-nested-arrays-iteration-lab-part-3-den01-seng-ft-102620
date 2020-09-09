@@ -12,7 +12,7 @@ def join_nested_strings(src)
       end
       index += 1 
     end
-    strings
+    total << strings
     row += 1 
   end
 end
